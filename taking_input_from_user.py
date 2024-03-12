@@ -4,4 +4,4 @@
  b=int(input("enter second number : "))
 
  c=a+b
- print("additon is : " c)
+ print("additon is : ", c)
