@@ -74,6 +74,24 @@ for i in list1:
 print(3 in list1)
 print(7 in list1)
 
+#to add element to list
+list1.append(33)
+print(list1)
+
+#to add element according to index
+list1.insert(2:34)
+print(list1)
+
+#to remove element from list
+list1.remove(1)
+print(list1)
+
+#max function
+print(max(list1))
+
+#min function
+print(min(list1))
+
 
 output:
 [1,2,3,4,5,1,2,3,4,5]
@@ -86,5 +104,16 @@ iteration over list
 5
 true
 false
+[1,2,3,4,5,33]
+[1,2,34,4,5]
+[2,3,4,5]
+5
+1
+
+
+
+
+
+
 
 
